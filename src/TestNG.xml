@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-	<test name="MintosTest">
-		<parameter name="email" value="test.Mintos.tmp@gmail.com"/>
-		<parameter name="pwd" value="Test.Mintos"/>
-		<parameter name="url" value="https://lv.sportsdirect.com/"/>
-		<parameter name="searchString" value="Test"/>
-		
+	<test name="LMT">
+		<parameter name="url" value="https://edlus.lmt.lv/"/>
+		<parameter name="StartPageTitle" value="LMT elektroniskā darbalaika uzskaite – EDLUS"/>
+		<parameter name="sleep" value="1000"/>		
 		<classes>
-			<class name="MintosTest"/>
-					
+			<class name="LMT"/>		
 		</classes>
 		
 	</test>
